@@ -88,7 +88,7 @@ const SignUp = () => {
           </div>
           {/* Submit Button */}
           {/* <Button text="Submit" className="bg-[#0066F5] text-white p-2 w-full rounded" /> */}
-          <Link to={"/"}>
+          <Link to={"/login"}>
           <button
             text="Submit"
             className="bg-[black] text-white font-light py-2 px-5 rounded-md shadow-[2px_3px_1px_gray] hover:bg-gray-900 transition-all duration-300 w-full"

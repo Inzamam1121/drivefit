@@ -9,21 +9,21 @@ import { RxCross1 } from "react-icons/rx";
 const Sidebar = () => {
     
   const navItems = [
-    { name: "My Ads", url: "/MainDashboard/ads", icon: <RxDashboard /> },
-    { name: "Profile", url: "/MainDashboard/profile", icon: <FiUser /> },
-    { name: "My Saved Ads", url: "/MainDashboard/savedAds", icon: <CiSaveDown2 /> },
-    { name: "My Rides", url: "/MainDashboard/Rides", icon: <GiCartwheel /> },
+    { name: "My Ads", url: "/dashboard/ads", icon: <RxDashboard /> },
+    { name: "Profile", url: "/dashboard/profile", icon: <FiUser /> },
+    { name: "My Saved Ads", url: "/dashboard/savedAds", icon: <CiSaveDown2 /> },
+    { name: "My Rides", url: "/dashboard/Rides", icon: <GiCartwheel /> },
   ];
 
   return (
-    <div className="bg-[#030915] h-screen p-4 flex flex-col justify-between hidden ">
+    <div className="bg-[#030915] h-screen p-4 lg:flex flex-col justify-between  hidden">
       {/* Logo Section */}
      <div>
      <div className="flex lg:justify-center mb-6 justify-between">
         <img src={logo} alt="Logo" className="md:w-[50%] w-[30%] object-contain" />
-        <div>
+        {/* <div>
             <RxCross1 className="text-white"/>
-        </div>
+        </div> */}
       </div>
       {/* Navigation List */}
       <ul className="space-y-2">
@@ -44,7 +44,7 @@ const Sidebar = () => {
       </ul>
      </div>
       <div className="text-center mt-6">
-            <Link to="/login">
+            <Link to="/">
               <p className=" text-white border py-2 px-4 rounded">
                  Log Out
               </p>

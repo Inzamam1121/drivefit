@@ -10,10 +10,10 @@ import Myadds from "../UserSideBarLinks/Myadds";
 const UserDashboard = () => {
   return (
     <div className="md:flex">
-      <div className="md:basis-[20%]">
+      <div className="md:basis-[20%] w-full">
       <Sidebar />
       </div>
-      <div className="flex flex-col md:basis-[80%] h-screen bg-[#f8f7f1]">
+      <div className="flex flex-col md:basis-[80%] w-full h-screen bg-[#f8f7f1]">
         <SearchBar />
         <Routes>
           <Route path="/ads" element={<Myadds />} />

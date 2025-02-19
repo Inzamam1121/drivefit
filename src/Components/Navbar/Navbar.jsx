@@ -23,12 +23,9 @@ const Navbar = () => {
         {/* Main Menu for Desktop */}
         <div className="  md:block hidden">
           <ul className="flex items-center gap-10">
-            <NavLink to="/" className="md:text-lg font-light">
+            {/* <NavLink to="/" className="md:text-lg font-light">
               Home
-            </NavLink>
-            <NavLink to="/MainDashboard" className="md:text-lg font-light">
-              Dashboard
-            </NavLink>
+            </NavLink> */}
           </ul>
         </div>
 

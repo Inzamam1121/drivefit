@@ -2,15 +2,15 @@ import React from 'react';
 // import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import SideCard from '../../Components/Login/SideCard';
-import img from "../../../public/Images/Login/DrivefitLogo.png"
+
 
 const Login = () => {
     return (
         <div className="lg:flex font-pop items-center justify-center">
             {/* Left Section */}
             <div className="basis-[50%] bg-white  flex flex-col items-center gap-6">
-                <div className="flex justify-center items-center mt-4">
-                    <img src={img} alt="" className='w-[50%]'/>
+                <div>
+                    {/* <img src={img} alt="" className='border bg-black'/> */}
                 </div>
 
                 <div className="w-[80%] md:w-[40%] text-center">
@@ -52,7 +52,7 @@ const Login = () => {
 
                     {/* Submit Button */}
                     {/* <Button text="Submit" className="bg-[#0066F5] text-white p-2 w-full rounded" /> */}
-                    <Link to={"/MainDashboard/ads"}>
+                    <Link to={"/dashboard/ads"}>
                     <button text="Submit" className=" bg-[black] text-white font-light py-2 px-5 rounded-md shadow-[2px_3px_1px_gray] hover:bg-gray-900 transition-all duration-300 w-full">Submit</button>
                     </Link>
 
