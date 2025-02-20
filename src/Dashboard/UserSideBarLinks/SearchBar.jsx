@@ -64,12 +64,20 @@ const SearchBar = () => {
                 ))}
               </ul>
             </nav>
+              <div className="text-center mt-6 w-[80%] mx-auto">
+                        <Link to="/">
+                          <p className=" text-white border py-2 px-4 rounded w-fit">
+                             Log Out
+                          </p>
+                        </Link>
+                      </div>
           </div>
+          
         </>
       )}
 
       {/* Search Bar Section */}
-      <div className="flex lg:justify-end md:gap-10 w-[90%] mx-auto py-5 items-center text-[#191919]">
+      <div className="flex lg:justify-end gap-10 w-[90%] mx-auto py-5 items-center text-[#191919]">
         <div>
           <VscMenu
             className="text-2xl lg:hidden block"
@@ -79,7 +87,7 @@ const SearchBar = () => {
        <div className="">
        <BsBellFill className="cursor-pointer text-gray-500 text-xl" />
        </div>
-        <div className="relative md:w-[40%]">
+        <div className="relative lg:w-[40%] w-full">
           <input
             type="search"
             className="bg-white shadow-md outline-none w-full py-2 pl-10 pr-3 rounded placeholder:text-sm"

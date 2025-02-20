@@ -9,7 +9,7 @@ const Profile = () => {
       </div>
       <div className="mx-auto w-full md:w-[70%] my-6">
         <form>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-6 w-full py-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-6 w-full">
             <input type="text" className="py-2 px-3 outline-none shadow-md rounded placeholder:text-sm placeholder:font-light placeholder:text-gray-500 w-full" placeholder="Full Name"/>
             <input type="text" className="py-2 px-3 outline-none shadow-md rounded placeholder:text-sm placeholder:font-light placeholder:text-gray-500 w-full" placeholder="Gender"/>
             <input type="text" className="py-2 px-3 outline-none shadow-md rounded placeholder:text-sm placeholder:font-light placeholder:text-gray-500 w-full" placeholder="Date of Birth"/>
@@ -19,7 +19,7 @@ const Profile = () => {
             <input type="text" className="py-2 px-3 outline-none shadow-md rounded placeholder:text-sm placeholder:font-light placeholder:text-gray-500 w-full" placeholder="Email"/>
             <input type="text" className="py-2 px-3 outline-none shadow-md rounded placeholder:text-sm placeholder:font-light placeholder:text-gray-500 w-full" placeholder="Mobile Number"/>
           </div>
-          <button className="bg-[#013C91] w-full mx-auto py-3 rounded-md text-white transition-all duration-500 hover:scale-95">Add New Ride</button>
+          <button className="bg-[#013C91] w-full mx-auto py-3 rounded-md text-white transition-all duration-500 hover:scale-95 my-3">Add New Ride</button>
         </form>
       </div>
     </div>

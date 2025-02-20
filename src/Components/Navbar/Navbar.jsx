@@ -62,9 +62,9 @@ const Navbar = () => {
             <NavLink to="/" className="md:text-lg font-light">
               Home
             </NavLink>
-            <NavLink to="/contact" className="md:text-lg font-light">
+            {/* <NavLink to="/contact" className="md:text-lg font-light">
               Contact
-            </NavLink>
+            </NavLink> */}
           </ul>
 
           <div className=" mt-5 w-fit flex flex-col gap-4">
