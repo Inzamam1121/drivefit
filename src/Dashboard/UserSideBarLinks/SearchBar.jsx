@@ -65,8 +65,8 @@ const SearchBar = () => {
               </ul>
             </nav>
               <div className="text-center mt-6 w-[80%] mx-auto">
-                        <Link to="/">
-                          <p className=" text-white border py-2 px-4 rounded w-fit">
+                        <Link to="/" className="w-fit">
+                          <p className=" text-white border py-2 px-4 rounded">
                              Log Out
                           </p>
                         </Link>
@@ -75,12 +75,11 @@ const SearchBar = () => {
           
         </>
       )}
-
       {/* Search Bar Section */}
       <div className="flex lg:justify-end gap-10 w-[90%] mx-auto py-5 items-center text-[#191919]">
         <div>
           <VscMenu
-            className="text-2xl lg:hidden block"
+            className="text-2xl lg:hidden block cursor-pointer"
             onClick={() => setMenuOpen(true)}
           />
         </div>
