@@ -37,7 +37,7 @@ const HomeBanner = () => {
     { id: 5, img: Micro, name: "Micro" },
   ];
   return (
-    <div className="lg:pt-36 pt-10">
+    <div className="lg:pt-36 pt-10" id="home">
       <div className="mx-auto container px-6 lg:flex justify-between gap-6 pt-20 ">
         <div className="basis-[35%] flex flex-col text-white md:gap-6">
           <h1 className="font-Sansita lg:text-6xl font-semibold md:text-5xl text-2xl italic">

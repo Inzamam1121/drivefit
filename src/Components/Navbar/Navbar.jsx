@@ -8,7 +8,7 @@ const Navbar = () => {
   const [Open, setOpen] = useState(false);
 
   return (
-    <div className="text-white py-6 absolute top-0 w-full z-30">
+    <div className="text-white py-6 absolute top-0 w-full z-30" id="home">
       {/* Main Navbar */}
       <div className="flex justify-between mx-auto w-[90%] items-center">
         {/* Logo */}
